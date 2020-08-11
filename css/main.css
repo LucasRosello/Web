@@ -71,6 +71,9 @@
 
 @media (max-width: 800px) 
 {
+    .logos{
+        margin-bottom:20%;
+    }
     .fotoMovil
     {
         width: 100%;
