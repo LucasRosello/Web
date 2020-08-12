@@ -58,12 +58,19 @@
     .fotoMovil
     {
         width: 30%;
+        margin-left:40%;
         margin-right:50px;
     }
     .fotoExtra
     {
         width: 30%;
         margin-right:20px;
+    }
+
+
+
+    .mb-0Mobile{
+        margin-bottom: 0 !important;
     }
  } 
 
@@ -76,12 +83,18 @@
     }
     .fotoMovil
     {
-        width: 100%;
+        margin-top:20px;
+        margin-left:15%;
+        width: 70%;
         
     }
 
     .fotoExtra{
         display:none;
+    }
+
+    .mb-0Mobile{
+        margin-top: 3rem !important;
     }
 }
 
