@@ -96,8 +96,13 @@
     .mb-0Mobile{
         margin-top: 3rem !important;
     }
+
+    
 }
 
+.mb-0Mobile:hover{
+    color: #C41D31 !important;
+}
 
 .fotoLogo{
  max-width: 40%;
@@ -162,10 +167,6 @@ a {
     color: #0087cc;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-}
-
-a:hover, a:focus, a:active {
-    color: #C41D31;
 }
 
 a:hover, a:active {
@@ -881,8 +882,6 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
-.btn:focus,
-button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
@@ -1928,8 +1927,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-right: 0;
 }
 
-.home-content__buttons .btn:hover, 
-.home-content__buttons .btn:focus {
+.home-content__buttons .btn:hover{
     background: #FFFFFF !important;
     color: #000000;
 }
